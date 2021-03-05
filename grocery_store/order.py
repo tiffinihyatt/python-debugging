@@ -1,5 +1,3 @@
-from grocery_store.product import Product
-
 class Order:
     def __init__(self, products, customer_name):
         self.products = products
