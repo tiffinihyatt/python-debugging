@@ -1,4 +1,3 @@
-from grocery_store.product import create_product
 
 
 def create_order(products, customer_name):
