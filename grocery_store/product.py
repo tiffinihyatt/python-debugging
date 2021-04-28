@@ -1,10 +1,11 @@
-class Product:
-    def __init__(self, name, price):
-        self.name = name
-        self.price = name
 
+def create_product(name, price):
+    return {
+        "name": name,
+        "price": name,
+    }
 
-    def __str__(self):
-        return f"{self.name} - ${self.price}"
+def print_product(product):
+    return f"{product['name']} - ${product['price']}"
     
 
