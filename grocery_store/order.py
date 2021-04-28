@@ -15,4 +15,4 @@ def calculate_total(order):
     for i in range(1, len(order["products"])):
         total += order["products"][i]["price"]
 
-        return total
+    return total
