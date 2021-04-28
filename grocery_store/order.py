@@ -14,16 +14,5 @@ def calculate_total(order):
     total = 0
     for i in range(1, len(order["products"])):
         total += order["products"][i]["price"]
-    
-    return total
-<<<<<<< HEAD
 
-
-
-
-
-
-        
-=======
-    
->>>>>>> remove unneeded files
+        return total
