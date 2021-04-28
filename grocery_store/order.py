@@ -16,6 +16,7 @@ def calculate_total(order):
         total += order["products"][i]["price"]
     
     return total
+<<<<<<< HEAD
 
 
 
@@ -23,3 +24,6 @@ def calculate_total(order):
 
 
         
+=======
+    
+>>>>>>> remove unneeded files
