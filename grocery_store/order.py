@@ -12,7 +12,7 @@ def add_product(order, product):
 
 def calculate_total(order):
     total = 0
-    for i in range(1, len(order["products"])):
+    for i in range(len(order["products"])):
         total += order["products"][i]["price"]
 
     return total
