@@ -2,7 +2,7 @@
 def create_product(name, price):
     return {
         "name": name,
-        "price": name,
+        "price": price,
     }
 
 def print_product(product):
